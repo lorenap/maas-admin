@@ -1,0 +1,66 @@
+
+/* html, body, .viewport {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+} */
+
+.loginContainer .iconButton {
+  /* height: 45px !important; */
+  margin-top: 5% !important;
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.loginContainer .entrarButton {
+  /* height: 45px !important; */
+  margin-top: 5% !important;
+  display: flex;
+  justify-content: center !important;
+  color: white !important;
+}
+
+.loginContainer .facebook {
+ background-color: #3b5998 !important;
+}
+
+.loginContainer .google {
+  background-color: #FFF !important;
+  color: #666;
+}
+
+.loginContainer h4.esqueciSenha {
+  margin-top: 10px;
+  color: #AAA !important;
+  font-size: 12px !important;
+}
+
+.loginContainer h4.semCadastro {
+  color: #AAA !important;
+  font-size: 11px !important;
+  width: 100%; 
+  text-align: center; 
+  border-bottom: 1px solid #CCC; 
+  line-height: 0.1em;
+  margin: 10px 0 5px; 
+}
+
+.loginContainer h4.semCadastro span {
+  background: #F9F9F9; 
+  padding:0 10px; 
+}
+
+
+.loginContainer span[id^=not_signed_]:before {
+  content: 'Login com Google';
+  margin-right: 300px;
+}
+
+
+.loginContainer .loginLogoContainer {
+  flex: 1;
+}
+
+.loginContainer .loginFormContainer {
+  padding: 0px 0px 50px;
+}
