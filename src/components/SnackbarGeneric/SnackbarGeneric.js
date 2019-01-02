@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Snackbar from '@material-ui/core/Snackbar';
-import  MySnackbarContentWrapper  from '../SnackBarContent'
+import  MySnackbarContentWrapper  from '../SnackBarContent/SnackBarContent'
 
 const styles = theme => ({
   close: {

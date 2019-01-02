@@ -8,9 +8,9 @@ import {
 } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles'
 import './login.css'
+import Loading from '../../components/Loading/Loading'
 import SimpleSnackBar from '../../components/SnackbarGeneric/SnackbarGeneric'
-import Loading from '../../components/Loading'
-
+ 
 
 const styles = theme => ({
   main: {
